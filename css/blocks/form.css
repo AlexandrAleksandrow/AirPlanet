@@ -1,0 +1,130 @@
+.form {
+	margin-bottom: 35px;
+}
+
+.feedback {
+	display: block;
+	background: #f5f5f5;
+	width: 700px;
+	min-height: 430px;
+	margin: 0 auto;
+	padding: 42px 70px 52px 70px;
+	border: 1px solid transparent;
+}
+
+.feedback__caption {
+	margin-bottom: 17px;
+}
+
+.feedback__item {
+	display: inline-block;
+	margin-right: 0 auto;
+	margin-bottom: 10px;
+	vertical-align: top;
+}
+
+.feedback__item:nth-child(5) {
+	margin-bottom: 0px;
+}
+
+.feedback__item:nth-child(6) {
+	margin-bottom: 0px;
+}
+
+.feedback__label {
+	display: block;
+	margin-bottom: 10px;
+	
+}
+
+.feedback__input {
+	width: 270px;
+	height: 45px;
+	border: 1px solid transparent;
+	border-radius: 3px;
+}
+
+.feedback__textarea {
+	width: 558px;
+	height: 90px;
+	border: 1px solid #4b73b5;
+	border-radius: 5px;
+}
+
+.feedback__radio {
+	margin-right: 15px;
+}
+
+.feedback__input-radio {
+	display: inline-block;
+	vertical-align: middle;
+	position: absolute;
+	left: -99999px;
+}
+
+.feedback__circle {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	border: 1px solid black;
+  border-radius: 50%;
+  position: relative;
+  vertical-align: middle;
+}
+
+.feedback__inner {
+	position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: transparent;
+}
+
+.feedback__input-radio:checked + .feedback__circle {
+	border-color: #4b73b5;
+}
+
+.feedback__input-radio:checked ~ .feedback__version {
+	color: #4b73b5;
+}
+
+.feedback__input-radio:checked + .feedback__circle .feedback__inner {
+	background-color: #4b73b5;
+}
+
+.feedback__button {
+	float: right;
+}
+
+.feedback__submit {
+	display: block;
+	width: 154px;
+	height: 45px;
+	background: #4b73b5;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	color: white;
+	text-transform: uppercase;
+}
+
+.feedback__submit:hover {
+	background: white;
+	color: #4b73b5;
+}
+
+.feedback__submit:after {
+	display: inline-block;
+	content: "";
+	width: 15px;
+	height: 15px;
+	background: url(../../../imagesforcode/sprite2.png) -10px -24px no-repeat; 
+	vertical-align: top;
+	margin-left: 10px;
+}
+
+.feedback__submit:hover:after {
+	background: url(../../../imagesforcode/sprite2.png) -10px 0px no-repeat;
+}

@@ -1,0 +1,68 @@
+.main__sidebar,
+.base_content {
+	float: left;
+}
+
+.main__sidebar {
+	width: 18.18%;
+	padding-top: 28px;
+	text-align: left;
+}
+
+.base_content {
+	width: 81.82%;
+}
+
+.menu__item {
+	margin-bottom: 30px;
+	list-style: none;
+}
+
+.menu__item:nth-child(3) {
+	margin-bottom: 0px;
+}
+
+.menu__link{
+	font-weight: bold;
+	font-size: 12px;
+	color: #4b73b5;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	letter-spacing: 2px;
+}
+
+.menu__link:before {
+	display: inline-block;
+	content: "";
+	width: 23px;
+	height: 23px;
+	background: url(../../../imagesforcode/sprite_sidebar.png) -7px -9px no-repeat;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.menu__link:hover {
+	color: #000;
+}
+
+.menu__link:hover:before {
+	background: url(../../../imagesforcode/sprite_sidebar.png) -44px -9px no-repeat;
+}
+
+.menu__feed:before {
+	background: url(../../../imagesforcode/sprite_sidebar.png) -82px -9px no-repeat;
+}
+
+.menu__feed:hover:before {
+	background: url(../../../imagesforcode/sprite_sidebar.png) -122px -9px no-repeat;
+}
+
+.menu__team:before {
+	background: url(../../../imagesforcode/sprite_sidebar.png) -164px -9px no-repeat;
+}
+
+.menu__team:hover:before {
+	background: url(../../../imagesforcode/sprite_sidebar.png) -207px -9px no-repeat;
+}
+

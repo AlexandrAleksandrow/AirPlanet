@@ -1,0 +1,29 @@
+.application {
+	display: block;
+	background: #4bb56b;
+	width: 100%;
+	min-height: 170px;
+	margin: 0 auto;
+	text-align: left;
+	padding-top: 28px;
+	margin-bottom: 60px;
+}
+
+.application__text {
+	color: white;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	margin-left: 230px;
+}
+
+.application__link {
+	color: white;
+	font-weight: bold;
+}
+
+.application__phone {
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
