@@ -1,0 +1,5 @@
+main-icon-blue-hover, .main-icon-white
+{ display: inline-block; background: url('png.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.main-icon-blue-hover { background-position: -10px -0px; width: 15px; height: 14px; }
+.main-icon-white { background-position: -10px -24px; width: 15px; height: 14px; }
