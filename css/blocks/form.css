@@ -120,11 +120,11 @@
 	content: "";
 	width: 15px;
 	height: 15px;
-	background: url(../../../imagesforcode/sprite2.png) -10px -24px no-repeat; 
+	background: url(./../../imagesforcode/sprite2.png) -10px -24px no-repeat; 
 	vertical-align: top;
 	margin-left: 10px;
 }
 
 .feedback__submit:hover:after {
-	background: url(../../../imagesforcode/sprite2.png) -10px 0px no-repeat;
+	background: url(./../../imagesforcode/sprite2.png) -10px 0px no-repeat;
 }

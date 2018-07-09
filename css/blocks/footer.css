@@ -91,21 +91,21 @@
 }
 
 .networks__img-vk {
-	background: url(../../../imagesforcode/sprite3.png) -8px -35px no-repeat;
+	background: url(./../../imagesforcode/sprite3.png) -8px -35px no-repeat;
 }
 
 .networks__img-fb {
-	background: url(../../../imagesforcode/sprite3.png) -5px -74px no-repeat;
+	background: url(./../../imagesforcode/sprite3.png) -5px -74px no-repeat;
 }
 
 .networks__img-g {
-	background: url(../../../imagesforcode/sprite3.png) -8px 2px no-repeat;
+	background: url(./../../imagesforcode/sprite3.png) -8px 2px no-repeat;
 }
 
 .networks__img-tw {
-	background: url(../../../imagesforcode/sprite3.png) -6px -52px no-repeat;
+	background: url(./../../imagesforcode/sprite3.png) -6px -52px no-repeat;
 }
 
 .networks__img-m {
-	background: url(../../../imagesforcode/sprite3.png) -7px -17px no-repeat;
+	background: url(./../../imagesforcode/sprite3.png) -7px -17px no-repeat;
 }

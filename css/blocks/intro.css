@@ -1,6 +1,6 @@
 .intro__background {
 	position: relative;
-	background: url(../../../imagesforcode/background.jpg) center center no-repeat #fff;
+	background: url(./../../imagesforcode/background.jpg) center center no-repeat #fff;
 	width: 100%;
 	height: 100%;
 	background-size: 100%;
@@ -54,7 +54,7 @@
 	content: "";
 	width: 15px;
 	height: 15px;
-	background: url(../../../imagesforcode/sprite2.png) -10px 0px no-repeat; 
+	background: url(./../../imagesforcode/sprite2.png) -10px 0px no-repeat; 
 	vertical-align: top;
 	margin-left: 10px;
 }
@@ -69,7 +69,7 @@
 	content: "";
 	width: 15px;
 	height: 15px;
-	background: url(../../../imagesforcode/sprite2.png) -10px -24px no-repeat; 
+	background: url(./../../imagesforcode/sprite2.png) -10px -24px no-repeat; 
 	vertical-align: top;
 	margin-left: 10px;
 	

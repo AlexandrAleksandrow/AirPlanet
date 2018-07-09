@@ -37,7 +37,7 @@
 	content: "";
 	width: 23px;
 	height: 23px;
-	background: url(../../../imagesforcode/sprite_sidebar.png) -7px -9px no-repeat;
+	background: url(./../../imagesforcode/sprite_sidebar.png) -7px -9px no-repeat;
 	vertical-align: middle;
 	margin-right: 20px;
 }
@@ -47,22 +47,22 @@
 }
 
 .menu__link:hover:before {
-	background: url(../../../imagesforcode/sprite_sidebar.png) -44px -9px no-repeat;
+	background: url(./../../imagesforcode/sprite_sidebar.png) -44px -9px no-repeat;
 }
 
 .menu__feed:before {
-	background: url(../../../imagesforcode/sprite_sidebar.png) -82px -9px no-repeat;
+	background: url(./../../imagesforcode/sprite_sidebar.png) -82px -9px no-repeat;
 }
 
 .menu__feed:hover:before {
-	background: url(../../../imagesforcode/sprite_sidebar.png) -122px -9px no-repeat;
+	background: url(./../../imagesforcode/sprite_sidebar.png) -122px -9px no-repeat;
 }
 
 .menu__team:before {
-	background: url(../../../imagesforcode/sprite_sidebar.png) -164px -9px no-repeat;
+	background: url(./../../imagesforcode/sprite_sidebar.png) -164px -9px no-repeat;
 }
 
 .menu__team:hover:before {
-	background: url(../../../imagesforcode/sprite_sidebar.png) -207px -9px no-repeat;
+	background: url(./../../imagesforcode/sprite_sidebar.png) -207px -9px no-repeat;
 }
 
